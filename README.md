@@ -20,15 +20,18 @@ The primary objective of this project is to develop a predictive model to identi
   
 These metrics indicate a highly effective model for identifying potential churners while minimizing false positives.
 
-## Project Structure
+### Project Structure
+
+```text
 telecom-churn-prediction/
-│
 ├── data/
 │   └── internet_service_churn.csv   # Raw dataset
 ├── notebooks/
-│   └── 1_eda.ipynb                  # Jupyter notebook with EDA, Modeling, and Prediction function
-├── README.md                        # Project documentation
+│   └── 1_eda.ipynb                  # Jupyter notebook with EDA, Modeling, and Prediction
 ├── .gitignore                       # Ignored files for Git
+├── Dockerfile                       # Docker image configuration
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
 
 ## How to Run
 ### Local Execution
